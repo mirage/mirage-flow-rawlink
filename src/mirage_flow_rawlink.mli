@@ -14,4 +14,7 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *)
 
+(** [Mirage_flow_rawlink] exposes rawlink interfaces as MirageOS flow
+    devices. *)
+
 include Mirage_flow_lwt.S with type flow = Lwt_rawlink.t
