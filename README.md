@@ -1,4 +1,4 @@
-## mirage-flow-rawlink -- Expose rawlink interfoaces as MirageOS flows
+## mirage-flow-rawlink -- Expose rawlink interfaces as MirageOS flows
 
 Allow to use rawlink interfaces as MirageOS flows.
 
