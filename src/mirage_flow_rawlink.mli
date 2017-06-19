@@ -15,6 +15,9 @@
  *)
 
 (** [Mirage_flow_rawlink] exposes rawlink interfaces as MirageOS flow
-    devices. *)
+    devices.
+
+    {e Release %%VERSION%% - %%HOMEPAGE%% }
+*)
 
 include Mirage_flow_lwt.S with type flow = Lwt_rawlink.t
